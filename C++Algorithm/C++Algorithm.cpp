@@ -2,35 +2,48 @@
 #include <string>
 using namespace std;
 
-#define SIZE 5
+#define SIZE 10
 
 int main()
 {
 
-#pragma region 삽입 정렬
+#pragma region 이진 탐색
 
-	//데이터를 하나씩 확인하면서 이미 정렬된 부분과 비교하여 자신의 위치를 찾아 삽입하는 방식으로 정렬하는 알고리즘입니다.
-	int list[SIZE] = { 8, 5, 6, 2, 4 };
-	int key = 0;
-	int j = 0;
-	
-	for (int i = 1; i < SIZE; i++)
+	int left = 0;
+	int right = SIZE - 1;
+	int list[SIZE] = { 1, 5, 10, 12, 13, 16, 19, 22, 24, 27 };
+	int middle = 0;
+
+	int Answer = 0;
+	int Value = 19;
+
+	for (int i = 0; i < SIZE; i++)
 	{
-		key = list[i];
-
-		for (j = i - 1; j >= 0 && list[j] > key; j--)
+		if (list[i] == Value)
 		{
-			list[j + 1] = list[j];
+			middle = i;
+			break;
 		}
-
-		list[j + 1] = key;
 	}
-
-	for (const int& element : list)
+	
+	while (true)
 	{
-		cout << element << " ";
+		middle = (left + right) / 2;
+		if (list[middle] > Value)
+		{
+			right = middle - 1;
+		}
+		else if (list[middle] < Value)
+		{
+			left = middle + 1;
+		}
+		else if (left == right && list[middle] == Value)
+		{
+			cout << "찾는 값의 인덱스는 : " << middle << endl;
+			break;
+		}
 	}
-	cout << endl;
+
 
 #pragma endregion
 
