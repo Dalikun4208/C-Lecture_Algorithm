@@ -2,48 +2,55 @@
 #include <string>
 using namespace std;
 
-#define SIZE 10
+#define SIZE 7
+
+
 
 int main()
 {
 
-#pragma region 이진 탐색
+#pragma region 퀵 정렬
+	// 기준점을 획득한 다음 해당 기준점을 기준으로 배열을 나누고 한 쪽에는 기준점보다 
+	// 작은 값들이 위치하고 다른 한쪽에는 기준점보다 큰 값들이 위치하도록 
+	// 정렬하는 알고리즘입니다.
 
-	int left = 0;
+	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여 모든 배열이 기본 배열이 될 때까지
+	// 반복하면서 정렬합니다.
+
+	int list[SIZE] = { 5, 10, 3, 7, 2, 1, 8 };
+
+	int pivot = 0;
+	int left = pivot + 1;
 	int right = SIZE - 1;
-	int list[SIZE] = { 1, 5, 10, 12, 13, 16, 19, 22, 24, 27 };
-	int middle = 0;
 
-	int Answer = 0;
-	int Value = 19;
+	while (left < right)
+	{
+		if (list[pivot] < list[left])
+		{
+			swap(list[left], list[right]);
+		}
+		else
+		{
+			left++;
+		}
 
-	for (int i = 0; i < SIZE; i++)
-	{
-		if (list[i] == Value)
+		if (list[pivot] > list[right])
 		{
-			middle = i;
-			break;
+			swap(list[left], list[right]);
 		}
-	}
-	
-	while (true)
-	{
-		middle = (left + right) / 2;
-		if (list[middle] > Value)
+		else
 		{
-			right = middle - 1;
+			right--;
 		}
-		else if (list[middle] < Value)
-		{
-			left = middle + 1;
-		}
-		else if (left == right && list[middle] == Value)
-		{
-			cout << "찾는 값의 인덱스는 : " << middle << endl;
-			break;
-		}
+
 	}
 
+	cout << "정렬된 값은 : ";
+
+	for (const int& element : list)
+	{
+		cout << element << " ";
+	}
 
 #pragma endregion
 
