@@ -1,60 +1,41 @@
 ﻿#include <iostream>
-#include <string>
+
 using namespace std;
 
-#define SIZE 7
+#define SIZE 8
 
+void divide(int list[], int start, int end)
+{
+    if (start < end)
+    {
+        int middle = (start + end) / 2;
+        divide(list, start, middle);
+        divide(list, middle + 1, end);
+    }
 
+}
 
 int main()
 {
+#pragma region 병합정렬
+    // 하나의 리스트를 두 개의 균둥한 크기로 분할하고 분할된
+    // 부분 리스트를 정렬한 다음, 두개의 정렬된 부분 리스트를 합하여
+    // 전체가 정렬된 리스트가 되게하는 방법입니다.
 
-#pragma region 퀵 정렬
-	// 기준점을 획득한 다음 해당 기준점을 기준으로 배열을 나누고 한 쪽에는 기준점보다 
-	// 작은 값들이 위치하고 다른 한쪽에는 기준점보다 큰 값들이 위치하도록 
-	// 정렬하는 알고리즘입니다.
+    // 1. 리스트의 길이가 0 또는 1이며 이미 정렬된 것으로 본다.
+    // 2 그렇지 않을 경우 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 
+    // 두 부분 리스트로 나눈다.
+    // 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬한다.
+    // 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합한다.
 
-	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여 모든 배열이 기본 배열이 될 때까지
-	// 반복하면서 정렬합니다.
+    int list[SIZE] = { 3, 5, 2, 7, 4, 1, 8, 6 };
+    int left = 0;
+    int right = SIZE - 1;
 
-	int list[SIZE] = { 5, 10, 3, 7, 2, 1, 8 };
-
-	int pivot = 0;
-	int left = pivot + 1;
-	int right = SIZE - 1;
-
-	while (left < right)
-	{
-		if (list[pivot] < list[left])
-		{
-			swap(list[left], list[right]);
-		}
-		else
-		{
-			left++;
-		}
-
-		if (list[pivot] > list[right])
-		{
-			swap(list[left], list[right]);
-		}
-		else
-		{
-			right--;
-		}
-
-	}
-
-	cout << "정렬된 값은 : ";
-
-	for (const int& element : list)
-	{
-		cout << element << " ";
-	}
+    divide(list, left, right);
 
 #pragma endregion
 
 
-	return 0;
-
+    return 0;
 }
