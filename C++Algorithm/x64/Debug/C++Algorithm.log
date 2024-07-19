@@ -1,2 +1,3 @@
 ﻿  C++Algorithm.cpp
-  C++Algorithm.vcxproj -> C:\Users\Administrator\Desktop\C-Lecture_Algorithm\C++Algorithm\x64\Debug\C++Algorithm.exe
+C:\C-Lecture_Algorithm\C++Algorithm\C++Algorithm.cpp(32): warning C4715: 'fibo': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  C++Algorithm.vcxproj -> C:\C-Lecture_Algorithm\C++Algorithm\x64\Debug\C++Algorithm.exe

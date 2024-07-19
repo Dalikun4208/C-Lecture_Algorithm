@@ -4,35 +4,49 @@ using namespace std;
 
 #define SIZE 8
 
-void divide(int list[], int start, int end)
+int fibo(int list[], int num)
 {
-    if (start < end)
+    if (num <= 0)
     {
-        int middle = (start + end) / 2;
-        divide(list, start, middle);
-        divide(list, middle + 1, end);
+        list[0] = { 0 };
+        return 0;
+    }
+    else if (num < 2)
+    {
+        list[num] = num;
+        return num;
+    }
+    else
+    {
+        if (list[num] == 0)
+        {
+            list[num] = fibo(list, num - 1) + fibo(list, num - 2);
+        }
+        else
+        {
+            return list[num];
+        }
     }
 
+    
 }
 
 int main()
 {
-#pragma region 병합정렬
-    // 하나의 리스트를 두 개의 균둥한 크기로 분할하고 분할된
-    // 부분 리스트를 정렬한 다음, 두개의 정렬된 부분 리스트를 합하여
-    // 전체가 정렬된 리스트가 되게하는 방법입니다.
 
-    // 1. 리스트의 길이가 0 또는 1이며 이미 정렬된 것으로 본다.
-    // 2 그렇지 않을 경우 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 
-    // 두 부분 리스트로 나눈다.
-    // 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬한다.
-    // 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합한다.
+#pragma region 동적 계획법
 
-    int list[SIZE] = { 3, 5, 2, 7, 4, 1, 8, 6 };
-    int left = 0;
-    int right = SIZE - 1;
+    // 특정 범위까지의 값을 구하기 위해서 그것과
+    // 다른 범위까지의 값을 이용하여 효율적으로 값을
+    // 구하는 알고리즘
 
-    divide(list, left, right);
+    // 메모리제이션
+    // 프로그램이 동일한 계산을 반복해야할 때 이전에 계산한 값을 메모리에 저장함으로써
+    // 동일한 계산을 반복 수행하는 작업을 제거하여 프로그램의 실행 속도를 향상시키는 기법이다.
+    int num = 8;
+    int list[8 + 1];
+    fill_n(list, 8, 0);
+    cout << fibo(list, num);
 
 #pragma endregion
 

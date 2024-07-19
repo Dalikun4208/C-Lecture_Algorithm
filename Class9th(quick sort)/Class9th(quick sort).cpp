@@ -4,78 +4,90 @@ using namespace std;
 
 #define SIZE 8
 
-void QuickSort(int list[], int start, int end)
+void merge(int list[], int start, int middle, int end)
 {
-    if (start >= end)
+    int count = 0;
+    int left = start;
+    int right = middle + 1;
+
+    int* TempList = new int[end - start + 1];
+
+    //두 부분의 배열을 병합합니다.
+    while (left <= middle && right <= end)
     {
-        return;
-    }
-
-    // pivot 변수의 값을 설정합니다.
-    int pivot = start;
-
-    // left 변수의 값을 설정합니다.
-    int left = start + 1;
-
-    // right 변수의 값을 설정합니다.
-    int right = end;
-
-    // left가 right보다 크거나 같을 때까지 반복합니다.
-    while (left <= right)
-    {
-        // left가 end보다 작거나 같고 list[left]가
-        // list[pivot]보다 작거나 같을 때까지 반복합니다.
-        while (left <= end && list[pivot] >= list[left])
+        if (list[left] <= list[right])
         {
-            left++; // left를 증가시킵니다. 
-        }
+            TempList[count++] = list[left++];
 
-        // right가 start보다 크고 list[right]가
-        // list[pivot]보다 크거나 같을 때까지 반복합니다.
-        while (right > start && list[pivot] <= list[right])
-        {
-            right--; // right를 감소시킵니다.
-        }
-
-        if (left > right)
-        {
-            std::swap(list[pivot], list[right]);
         }
         else
         {
-            std::swap(list[left], list[right]);
+            TempList[count++] = list[right++];
         }
+
     }
 
-    // 피벗을 기준으로 나누어진 두 배열에 대해
-    // 재귀적으로 퀵 정렬을 호출합니다.
-    QuickSort(list, start, right - 1);
-    QuickSort(list, right + 1, end);
+    while (left <= middle)
+    {
+        TempList[count++] = list[left++];
+    }
+
+    while (right <= end)
+    {
+        TempList[count++] = list[right++];
+    }
+    // 원본 배열에 정렬된 임시 배열의  값을 복사한다.
+
+    for (int i = 0; i < end - start + 1; i++)
+    {
+        list[start + i] = TempList[i];
+    }
+    delete TempList;
+
 }
+
+void divide(int list[], int start, int end)
+{
+    int middle = (start + end) / 2;
+
+    if (start < end)
+    {
+        divide(list, start, middle);
+        divide(list, middle + 1, end);
+        merge(list, start, middle, end);
+    }
+
+    merge(list, start, middle, end);
+
+}
+
+
 
 int main()
 {
-#pragma region 퀵 정렬
-    // 기준점을 획득한 다음 해당 기준점을 기준으로
-    // 배열을 나누고 한 쪽에는 기준점보다 작은 값들이
-    // 위치하고 다른 한 쪽에는 기준점보다 큰 값들이 
-    // 위치하도록 정렬하는 알고리즘입니다.
+#pragma region 병합정렬
+    // 하나의 리스트를 두 개의 균둥한 크기로 분할하고 분할된
+    // 부분 리스트를 정렬한 다음, 두개의 정렬된 부분 리스트를 합하여
+    // 전체가 정렬된 리스트가 되게하는 방법입니다.
 
-    // 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여 
-    // 모든 배열이 기본 배열이 될 때까지 반복하면서 정렬합니다.
+    // 1. 리스트의 길이가 0 또는 1이며 이미 정렬된 것으로 본다.
+    // 2 그렇지 않을 경우 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 
+    // 두 부분 리스트로 나눈다.
+    // 각 부분 리스트를 재귀적으로 병합 정렬을 이용하여 정렬한다.
+    // 두 부분 리스트를 다시 하나의 정렬된 리스트로 병합한다.
 
-    int list[SIZE] = { 5, 9, 6, 2, 1, 3, 4, 7 };
+    int list[SIZE] = { 3, 5, 2, 7, 4, 1, 8, 6 };
+    int left = 0;
+    int right = SIZE - 1;
 
-    QuickSort(list, 0, SIZE - 1);
+    divide(list, left, right);
 
-    for (const int& element : list)
+    for (int i = 0; i < SIZE; i++)
     {
-        cout << element << " ";
+        cout << list[i] << endl;
     }
 
-
 #pragma endregion
-
 
 
     return 0;

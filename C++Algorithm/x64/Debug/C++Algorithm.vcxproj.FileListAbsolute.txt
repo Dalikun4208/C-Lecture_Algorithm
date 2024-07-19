@@ -1,2 +1,3 @@
 C:\Users\Administrator\Desktop\C-Lecture_Algorithm\C++Algorithm\x64\Debug\C++Algorithm.exe
 C:\Users\UserK\Desktop\게임 수업\프로그램 수업\C-Lecture_Algorithm\C++Algorithm\x64\Debug\C++Algorithm.exe
+C:\C-Lecture_Algorithm\C++Algorithm\x64\Debug\C++Algorithm.exe
