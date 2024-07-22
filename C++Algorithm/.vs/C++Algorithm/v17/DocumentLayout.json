@@ -7,6 +7,12 @@
       "RelativeMoniker": "D:0:0:{A0ACE88E-F3ED-413F-A1BD-FD13B94CB2D4}|C\u002B\u002BAlgorithm.vcxproj|solutionrelative:C\u002B\u002BAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A45012A0-7829-4914-9070-CBB776FA6E79}|..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E3BDB7-ADDF-42A4-B484-1C357DA557C5}|..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09813E96-A2F8-47C2-BB91-EB26BFBCEB62}|..\\Class9th(quick sort)\\Class9th(quick sort).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -29,37 +35,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class9th(quick sort).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "RelativeDocumentMoniker": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "RelativeToolTip": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwFEAAAABAAAA",
+              "Title": "Class12th(Greedy algorithm).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
+              "RelativeDocumentMoniker": "..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
+              "RelativeToolTip": "..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T10:06:02.266Z",
+              "WhenOpened": "2024-07-22T10:22:50.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class7th(Divind and conquer).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "RelativeDocumentMoniker": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "RelativeToolTip": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAADwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Class6th(Binary search).cpp",
               "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class6th(Binary search)\\Class6th(Binary search).cpp",
               "RelativeDocumentMoniker": "..\\Class6th(Binary search)\\Class6th(Binary search).cpp",
@@ -67,8 +60,7 @@
               "RelativeToolTip": "..\\Class6th(Binary search)\\Class6th(Binary search).cpp",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T09:19:07.105Z"
             },
             {
               "$type": "Document",
@@ -78,14 +70,51 @@
               "RelativeDocumentMoniker": "C\u002B\u002BAlgorithm.cpp",
               "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
               "RelativeToolTip": "C\u002B\u002BAlgorithm.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-18T09:19:07.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class10th(Dynamic progaming).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
+              "RelativeDocumentMoniker": "..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
+              "RelativeToolTip": "..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwDEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-22T09:19:35.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Class7th(Divind and conquer).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
+              "RelativeDocumentMoniker": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
+              "RelativeToolTip": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAADwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T09:19:07.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class9th(quick sort).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
+              "RelativeDocumentMoniker": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
+              "RelativeToolTip": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwFEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T10:06:02.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Class5th(insert sort).cpp",
               "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class5th(insert sort)\\Class5th(insert sort).cpp",
               "RelativeDocumentMoniker": "..\\Class5th(insert sort)\\Class5th(insert sort).cpp",
@@ -97,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Class4th(SelectSort).cpp",
               "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
               "RelativeDocumentMoniker": "..\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
