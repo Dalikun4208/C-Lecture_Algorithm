@@ -3,29 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD1931D5-E62A-46A9-8C8A-5126B200BABE}|..\\Class16th(DFS)\\Class16th(DFS).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0ACE88E-F3ED-413F-A1BD-FD13B94CB2D4}|C\u002B\u002BAlgorithm.vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A0ACE88E-F3ED-413F-A1BD-FD13B94CB2D4}|C\u002B\u002BAlgorithm.vcxproj|solutionrelative:C\u002B\u002BAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A45012A0-7829-4914-9070-CBB776FA6E79}|..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58E3BDB7-ADDF-42A4-B484-1C357DA557C5}|..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09813E96-A2F8-47C2-BB91-EB26BFBCEB62}|..\\Class9th(quick sort)\\Class9th(quick sort).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB9ED667-BA5A-4612-BB3F-ABE1D2F2B40D}|..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D39625-AD75-4D4F-84F1-07A1E0481681}|..\\Class6th(Binary search)\\Class6th(Binary search).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class6th(Binary search)\\Class6th(Binary search).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218CFEC0-782E-429A-BFC5-58A0FC1569E6}|..\\Class5th(insert sort)\\Class5th(insert sort).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class5th(insert sort)\\Class5th(insert sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2DE42A8-789A-40FB-B228-D1B32F5C28EF}|..\\Class4th(SelectSort)\\Class4th(SelectSort).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class4th(SelectSort)\\Class4th(SelectSort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0B7DB66B-21DA-4DCA-AB21-A955188244A2}|..\\Class15th(back tracking)\\Class15th(back tracking).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class15th(back tracking)\\Class15th(back tracking).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,106 +20,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class12th(Greedy algorithm).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
-              "RelativeDocumentMoniker": "..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
-              "RelativeToolTip": "..\\Class12th(Greedy algorithm)\\Class12th(Greedy algorithm).cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T10:22:50.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class6th(Binary search).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class6th(Binary search)\\Class6th(Binary search).cpp",
-              "RelativeDocumentMoniker": "..\\Class6th(Binary search)\\Class6th(Binary search).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class6th(Binary search)\\Class6th(Binary search).cpp",
-              "RelativeToolTip": "..\\Class6th(Binary search)\\Class6th(Binary search).cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.105Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "C\u002B\u002BAlgorithm.cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002BAlgorithm.cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
-              "RelativeToolTip": "C\u002B\u002BAlgorithm.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "Class16th(DFS).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp",
+              "RelativeDocumentMoniker": "..\\Class16th(DFS)\\Class16th(DFS).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp",
+              "RelativeToolTip": "..\\Class16th(DFS)\\Class16th(DFS).cpp",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.287Z",
+              "WhenOpened": "2024-07-25T10:40:59.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class10th(Dynamic progaming).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
-              "RelativeDocumentMoniker": "..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
-              "RelativeToolTip": "..\\Class10th(Dynamic progaming)\\Class10th(Dynamic progaming).cpp",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwDEAAAABAAAA",
+              "Title": "Class15th(back tracking).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class15th(back tracking)\\Class15th(back tracking).cpp",
+              "RelativeDocumentMoniker": "..\\Class15th(back tracking)\\Class15th(back tracking).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class15th(back tracking)\\Class15th(back tracking).cpp",
+              "RelativeToolTip": "..\\Class15th(back tracking)\\Class15th(back tracking).cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T09:19:35.296Z",
+              "WhenOpened": "2024-07-25T09:10:30.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class7th(Divind and conquer).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "RelativeDocumentMoniker": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "RelativeToolTip": "..\\Class7th(Divind and conquer)\\Class7th(Divind and conquer).cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAADwAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "C\u002B\u002BAlgorithm.cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002BAlgorithm.cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
+              "RelativeToolTip": "C\u002B\u002BAlgorithm.cpp",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class9th(quick sort).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "RelativeDocumentMoniker": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "RelativeToolTip": "..\\Class9th(quick sort)\\Class9th(quick sort).cpp",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwFEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T10:06:02.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class5th(insert sort).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class5th(insert sort)\\Class5th(insert sort).cpp",
-              "RelativeDocumentMoniker": "..\\Class5th(insert sort)\\Class5th(insert sort).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class5th(insert sort)\\Class5th(insert sort).cpp",
-              "RelativeToolTip": "..\\Class5th(insert sort)\\Class5th(insert sort).cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:06.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class4th(SelectSort).cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
-              "RelativeDocumentMoniker": "..\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
-              "RelativeToolTip": "..\\Class4th(SelectSort)\\Class4th(SelectSort).cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.105Z"
+              "WhenOpened": "2024-07-18T09:19:07.287Z",
+              "EditorCaption": ""
             }
           ]
         }

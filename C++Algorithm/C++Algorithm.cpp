@@ -1,22 +1,88 @@
 ﻿#include <iostream>
+#include <vector>
 
 using namespace std;
+#define SIZE 8
 
+void insert(int vertex, int edge)
+{
+
+}
+
+class Graph
+{
+private :
+    bool visited[SIZE];
+    vector<int> graph[SIZE];
+
+
+public :
+    Graph()
+    {
+        for (int i = 0; i < SIZE; i++)
+        {
+            visited[i] = false;
+        }
+    }
+    void Insert(int vertex, int edge)
+    {
+        graph[vertex].push_back(edge);
+        graph[edge].push_back(vertex);
+
+
+    }
+    void search(int start)
+    {
+        visited[start] = true;
+        cout << start << " ";
+
+        for (int i = 0; i < graph[start].size(); i++)
+        {
+            int next = graph[start][i];
+            if (visited[next] == false)
+            {
+                search(next);
+            }
+        }
+    }
+};
 
 int main()
 {
-#pragma region 백트래킹
-    //해를 찾아가는 도중에 지금의 경로가 해가 될 것 같지 않으면,
-    // 더 이상 깊이 들어가지 않고, 이전 단계로 다시 돌아가는 알고리즘.
 
-    // 백트래킹의 유망성 판단
-    // 해가 될 만한지 판단한 후 유망하지 않다고 결정되면,
-    // 그 노드의 이전 노드로 돌아가 다음 자식 노드로 이동한다.
+#pragma region 깊이 우선 탐색
 
-    // 해가 될 만한 가능성이 있으면 유망하다. (promising)
-    // 유망하지 않은 노드에 가지 않는 것 (pruning)
+    // root 노드에서 시작해서 다음 분기로 넘어가기 전에
+    // 해당 분기를 완벽하게 탐색하는 탐색 알고리즘입니다.
+
+    // 1. 시작 노드를 스택에 넣고 방문 처리를 합니다.
+    // 2. 스택의 최상단 노드에 방문하지 않은 인접 노드가 있으면
+    // 그 노드를 스택에 넣고 방문 처리합니다.
+    // 3. 방문하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼냅니다.
+    // 4. 더 이상2번의 과정을 수행할 수 없을때까지 반복합니다.
+
+    Graph graph;
+
+    graph.Insert(1, 2);
+    graph.Insert(1, 3);
+
+    graph.Insert(2, 3);
+
+    graph.Insert(2, 4);
+    graph.Insert(2, 5);
+
+    graph.Insert(3, 6);
+    graph.Insert(3, 7);
+
+    graph.Insert(4, 5);
+
+    graph.Insert(6, 7);
+
+
+    graph.search(1);
 
 #pragma endregion
+
 
     return 0;
 }
