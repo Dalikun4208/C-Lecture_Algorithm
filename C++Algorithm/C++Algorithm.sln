@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class15th(back tracking)", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th(DFS)", "..\Class16th(DFS)\Class16th(DFS).vcxproj", "{FD1931D5-E62A-46A9-8C8A-5126B200BABE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class17th(breath first search)", "..\class17th(breath first search)\class17th(breath first search).vcxproj", "{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{FD1931D5-E62A-46A9-8C8A-5126B200BABE}.Release|x64.Build.0 = Release|x64
 		{FD1931D5-E62A-46A9-8C8A-5126B200BABE}.Release|x86.ActiveCfg = Release|Win32
 		{FD1931D5-E62A-46A9-8C8A-5126B200BABE}.Release|x86.Build.0 = Release|Win32
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Debug|x64.ActiveCfg = Debug|x64
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Debug|x64.Build.0 = Debug|x64
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Debug|x86.Build.0 = Debug|Win32
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x64.ActiveCfg = Release|x64
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x64.Build.0 = Release|x64
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x86.ActiveCfg = Release|Win32
+		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

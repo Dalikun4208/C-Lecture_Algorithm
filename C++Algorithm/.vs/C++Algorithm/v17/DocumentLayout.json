@@ -3,11 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD1931D5-E62A-46A9-8C8A-5126B200BABE}|..\\Class16th(DFS)\\Class16th(DFS).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A0ACE88E-F3ED-413F-A1BD-FD13B94CB2D4}|C\u002B\u002BAlgorithm.vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A0ACE88E-F3ED-413F-A1BD-FD13B94CB2D4}|C\u002B\u002BAlgorithm.vcxproj|solutionrelative:C\u002B\u002BAlgorithm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}|..\\class17th(breath first search)\\class17th(breath first search).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\class17th(breath first search)\\class17th(breath first search).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD1931D5-E62A-46A9-8C8A-5126B200BABE}|..\\Class16th(DFS)\\Class16th(DFS).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B7DB66B-21DA-4DCA-AB21-A955188244A2}|..\\Class15th(back tracking)\\Class15th(back tracking).vcxproj|C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class15th(back tracking)\\Class15th(back tracking).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -20,24 +23,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 238,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "class17th(breath first search).cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\class17th(breath first search)\\class17th(breath first search).cpp",
+              "RelativeDocumentMoniker": "..\\class17th(breath first search)\\class17th(breath first search).cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\class17th(breath first search)\\class17th(breath first search).cpp",
+              "RelativeToolTip": "..\\class17th(breath first search)\\class17th(breath first search).cpp",
+              "ViewState": "AQIAADsAAAAAAAAAAAAUwEMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-26T10:16:01.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class16th(DFS).cpp",
               "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp",
               "RelativeDocumentMoniker": "..\\Class16th(DFS)\\Class16th(DFS).cpp",
               "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class16th(DFS)\\Class16th(DFS).cpp",
               "RelativeToolTip": "..\\Class16th(DFS)\\Class16th(DFS).cpp",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAUwE0AAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwCAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-25T10:40:59.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "C\u002B\u002BAlgorithm.cpp",
+              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002BAlgorithm.cpp",
+              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
+              "RelativeToolTip": "C\u002B\u002BAlgorithm.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T09:19:07.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class15th(back tracking).cpp",
               "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\Class15th(back tracking)\\Class15th(back tracking).cpp",
               "RelativeDocumentMoniker": "..\\Class15th(back tracking)\\Class15th(back tracking).cpp",
@@ -46,19 +75,6 @@
               "ViewState": "AQIAABUAAAAAAAAAAAAUwCUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-25T09:10:30.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "C\u002B\u002BAlgorithm.cpp",
-              "DocumentMoniker": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002BAlgorithm.cpp",
-              "ToolTip": "C:\\Users\\tphu7\\OneDrive\\\uBB38\uC11C\\GitHub\\C-Lecture_Algorithm\\C\u002B\u002BAlgorithm\\C\u002B\u002BAlgorithm.cpp",
-              "RelativeToolTip": "C\u002B\u002BAlgorithm.cpp",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAUwFcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T09:19:07.287Z",
               "EditorCaption": ""
             }
           ]
