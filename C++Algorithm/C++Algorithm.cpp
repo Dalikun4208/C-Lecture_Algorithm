@@ -1,70 +1,94 @@
 ﻿#include <iostream>
 #include <vector>
-#include <queue>
+
+#define SIZE 7
 
 using namespace std;
-#define SIZE 8
 
 class Graph
 {
 private:
-    queue<int> queue;
-    bool visited[SIZE];
-    vector<int> graph[SIZE];
-    int list[SIZE];
+    int Child[SIZE];
+    int Parent[SIZE];
+
 public:
+
     Graph()
     {
         for (int i = 0; i < SIZE; i++)
         {
-            visited[i] = false;
-            list[i] = 0;
+            Child[i] = i;
+            Parent[i] = i;
         }
     }
-    void Insert(int vertex, int edge)
+
+    int Find(int x)
     {
-        graph[vertex].push_back(edge);
-        graph[edge].push_back(vertex);
+        int i = 1;
+        while (true)
+        {
+            if (Child[i] == x)
+            {
+                return Parent[i];
+            }
+            i++;
+        }
     }
 
-    void search(int start)
+    void Union(int x, int y)
     {
+        if (Child[x] < Child[y])
+        {
+            Parent[x] = x;
+            Parent[y] = x;
+        }
+        else
+        {
+            Parent[x] = y;
+            Parent[y] = y;
+        }
+    }
+
+    bool Same(int x, int y)
+    {
+        int Parent_x = Find(x);
+        int Parent_y = Find(y);
+
+        if (Parent_x == Parent_y)
+        {
+            cout << "같은 집합 " << endl;
+            return true;
+        }
+        else
+        {
+            cout << "같은 집합이 아님 " << endl;
+            return false;
+        }
 
     }
+
 };
 
 int main()
 {
-
-#pragma region 위상정렬
-    // 방향 그래프에 존재하는 각 정점들의 선행 순서를 지키며,
-    // 모든 정점을 차례대로 진행하는 알고리즘입니다.
-    // 사이클이 발생하는 경우 위상 정렬을 수행할 수 없습니다.
-    // DAG directed acyclic graph : 사이클이 존재하지 않는 그래프
-    // 시간 복잡도 : O(V + E)
-    // 1. 진입 차수가 0인 정점을 QUEUE에 삽입합니다.
-    // 2. QUEUE에서 원소를 꺼내 연결된 모든 간선을 제거합니다.
-    // 3, 간선 제거 이후에 진입 차수가 0이 된 정점을 QUEUE에 삽입합니다.
-    // 4. QUEUE가 비어있을떄까지 2~3번을 반복 수행한다.
+#pragma region 유니온 파인드
+    // 여러 노드가 존재할 때 어떤 노드가 다른 노드와 연결되어 있는지 확인하는 알고리즘입니다.
+    // 유니온 파인드의 시간복잡도 O(mlogn) m은 연산의 갯수, n은 노드의 갯수
+    // m이 n²에 가까울 때는 O(n² logn)이 된다.
 
     Graph graph;
 
-    graph.Insert(1, 2);
-    graph.Insert(1, 5);
+    // 배열의 인덱스와 값이 같다면 루트 노드 발견
+    // 부모 노드의 번호를 전달하면서, 루트 노드를 찾을떄까지 재귀함수 호출
 
-    graph.Insert(2, 3);
-
-    graph.Insert(5, 6);
-
-    graph.Insert(3, 4);
-
-    graph.Insert(6, 4);
-
-    graph.Insert(4, 7);
-
-
-
+    graph.Union(1, 2);
+    graph.Same(1, 2);
+    graph.Same(2, 3);
+    graph.Union(2, 3);
+    graph.Same(2, 3);
+    graph.Same(1, 3);
 #pragma endregion
+
 
 
 

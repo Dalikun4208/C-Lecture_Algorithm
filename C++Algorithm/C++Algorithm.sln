@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th(DFS)", "..\Class1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class17th(breath first search)", "..\class17th(breath first search)\class17th(breath first search).vcxproj", "{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class18th(위상정렬)", "..\Class18th(위상정렬)\Class18th(위상정렬).vcxproj", "{7E0344B7-225B-4A8A-967C-70E73ECC99BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x64.Build.0 = Release|x64
 		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x86.ActiveCfg = Release|Win32
 		{F9766BCE-5D66-4B54-A3D7-9A1076AFEACF}.Release|x86.Build.0 = Release|Win32
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Debug|x64.ActiveCfg = Debug|x64
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Debug|x64.Build.0 = Debug|x64
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Debug|x86.Build.0 = Debug|Win32
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Release|x64.ActiveCfg = Release|x64
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Release|x64.Build.0 = Release|x64
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Release|x86.ActiveCfg = Release|Win32
+		{7E0344B7-225B-4A8A-967C-70E73ECC99BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
